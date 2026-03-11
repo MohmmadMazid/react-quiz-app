@@ -14,7 +14,7 @@ The application fetches quiz questions from a local API and manages state using 
 * 📊 Progress bar for questions and points
 * 🏆 High score tracking
 * 🔄 Restart quiz functionality
-* ⚡ Efficient state management using ** `useReducer` **
+* ⚡ Efficient state management using **useReducer**
 * 🧩 Modular React component structure
 
 ---
