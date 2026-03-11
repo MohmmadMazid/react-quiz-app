@@ -2,7 +2,7 @@ import React from "react";
 
 const Option = ({ question, dispatch, answer }) => {
   const hasAnswered = answer !== null;
-  console.log(question);
+  // console.log(question);
   return (
     <div className="options">
       {question.options.map((option, i) => {
