@@ -1,18 +1,11 @@
 import React from "react";
+import Option from "./Option";
 
-const Question = ({ question }) => {
+const Question = ({ question, dispatch, answer }) => {
   return (
     <div>
       <h4>{question.question}</h4>
-      <div className="options">
-        {question.options.map((option, i) => {
-          return (
-            <button className="btn btn-option" key={i}>
-              {option}
-            </button>
-          );
-        })}
-      </div>
+      <Option question={question} dispatch={dispatch} answer={answer} />
     </div>
   );
 };
