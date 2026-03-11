@@ -14,7 +14,7 @@ The application fetches quiz questions from a local API and manages state using 
 * 📊 Progress bar for questions and points
 * 🏆 High score tracking
 * 🔄 Restart quiz functionality
-* ⚡ Efficient state management using **useReducer**
+* ⚡ Efficient state management using ** `useReducer` **
 * 🧩 Modular React component structure
 
 ---
@@ -63,7 +63,7 @@ All UI components are stored inside the **`components` directory**, while **`mai
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/react-quiz-app.git
+git clone https://github.com/MOhmmadMazid/react-quiz-app.git
 ```
 
 Navigate into the project folder:
